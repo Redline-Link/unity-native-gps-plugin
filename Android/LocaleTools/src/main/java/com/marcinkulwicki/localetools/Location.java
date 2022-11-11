@@ -34,7 +34,7 @@ public class Location implements LocationListener
 //        }
 //    }
 
-    // need to implement those callback or it'll just crash on API level 29 phone
+    // need to implement those callbacks or it'll just crash on API level 29 phone
     @Override
     public void onFlushComplete(int requestCode) {
         //LocationListener.super.onFlushComplete(requestCode);
